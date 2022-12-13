@@ -1,35 +1,74 @@
 body {
-
+    color: #666;
 }
 
-div.menu {
-    text-align: center;
-    font-size: 32px;
-    font-family: 'Courier New', Courier, monospace;
+.container {
+    max-width: 1920px;
+    width: 100%;
+}
+
+header {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: aliceblue;
+    border: 2px solid red;
+}
+
+nav:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container {
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+#logo:hover {
+    background-color: #42a409;
+    transition: .3s;
+}
+
+.nav-container ul {
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.nav-container li {
+    float: left;
+    list-style: none;
+    margin: 0px 15px;
+    font-size: 24px;
+}
+
+.nav-container a {
     text-decoration: none;
-    background-color: #7a0303;
-    padding: 10px 200px;
-    border-radius: 45% 45% 0% 0%;
+    color: #ff9100;
+    transition: .3s;
 }
 
-.topo-da-pagina {
-    text-align: center;
-    background-color: #da002c;
-    padding: 10px 160px;
-    border-radius: 0% 0% 45% 45%;
+.nav-container a:hover {
+    color: #42a409;
 }
 
-.pratos-entrada {
-    text-align: center;
-    background-color: #ab0022;
-}
-
-.pratos-principais {
-    text-align: center;
-    background-color: #7d0019;
-}
-
-.sobremesas {
-    background-color: #530011;
-    text-align: center;
-}
