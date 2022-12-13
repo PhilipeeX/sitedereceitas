@@ -1,0 +1,35 @@
+body {
+
+}
+
+div.menu {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    background-color: #7a0303;
+    padding: 10px 200px;
+    border-radius: 45% 45% 0% 0%;
+}
+
+.topo-da-pagina {
+    text-align: center;
+    background-color: #da002c;
+    padding: 10px 160px;
+    border-radius: 0% 0% 45% 45%;
+}
+
+.pratos-entrada {
+    text-align: center;
+    background-color: #ab0022;
+}
+
+.pratos-principais {
+    text-align: center;
+    background-color: #7d0019;
+}
+
+.sobremesas {
+    background-color: #530011;
+    text-align: center;
+}
