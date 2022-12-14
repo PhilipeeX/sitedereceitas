@@ -32,9 +32,12 @@ nav:after {
 
 .nav-container {
     max-width: 1200px;
-    position: relative;
+    /* position: relative;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 #logo {
